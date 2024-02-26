@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Anbis\ChefWorks\Api\Data\TagInterface" type="Anbis\ChefWorks\Model\Tags" />
+    <preference for="Anbis\ChefWorks\Api\Data\ProjectInterface" type="Anbis\ChefWorks\Model\Projects" />
+
+    <preference for="Anbis\ChefWorks\Api\Data\TagSearchResultInterface" type="Anbis\ChefWorks\Model\TagSearchResult" />
+    <preference for="Anbis\ChefWorks\Api\Data\ProjectSearchResultInterface" type="Anbis\ChefWorks\Model\ProjectSearchResult" />
+
+    <preference for="Anbis\ChefWorks\Api\TagsRepositoryInterface" type="Anbis\ChefWorks\Model\TagsRepository" />
+    <preference for="Anbis\ChefWorks\Api\ProjectsRepositoryInterface" type="Anbis\ChefWorks\Model\ProjectsRepository" />
+</config>

@@ -1,0 +1,28 @@
+{
+    "anbis_projects": {
+        "column": {
+            "entity_id": true,
+            "title": true,
+            "description": true,
+            "tags": true
+        },
+        "index": {
+            "ANBIS_PROJECTS_ENTITY_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    },
+    "anbis_tags": {
+        "column": {
+            "entity_id": true,
+            "tag": true
+        },
+        "index": {
+            "ANBIS_TAGS_ENTITY_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
